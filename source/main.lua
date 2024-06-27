@@ -4,6 +4,7 @@ import 'utilities/Utilities'
 
 import 'scenes/ExampleScene'
 import 'scenes/ExampleScene2'
+import 'scenes/StartingScene'
 
 Noble.Settings.setup({
 	Difficulty = "Medium"
@@ -15,4 +16,17 @@ Noble.GameData.setup({
 
 Noble.showFPS = true
 
-Noble.new(ExampleScene)
+Noble.new(
+	StartingScene,
+	2,
+	Noble.Transition.DipToWhite,
+	{
+		holdTime = 0,
+		ease = Ease.outInQuad
+	},
+	{
+		defaultTransition = Noble.Transition.Imagetable,
+		defaultTransitionDuration = 1.75,
+		enableDebugBonkChecking = true,
+	}
+)
