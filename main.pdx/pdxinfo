@@ -1,10 +1,10 @@
-name=A Noble Engine Game
-author=A Lovely Developer
-description=This is a Noble Engine game.
+name=CureThis
+author=Fred_Mackay
+description=A little Demo for Cure Cancer AU and AVCON
 bundleID=com.yourdomain.GameName
 version=0.0.1
 buildNumber=1
 imagePath=assets/launcher/
 launchSoundPath=assets/launcher/sound.wav
 pdxversion=20500
-buildtime=772822553
+buildtime=772903379
